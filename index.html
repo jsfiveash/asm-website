@@ -4,22 +4,12 @@
 
 <head>
 
-	<!-- 1. Link to jQuery (1.8 or later), -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> <!-- 33 KB -->
+<link rel="stylesheet" type="text/css" media="all" href="css/font-awesome.min.css" />
+<link rel="stylesheet" type="text/css" media="all" href="css/jgallery.min.css?v=1.6.2" />
+<script type="text/javascript" src="js/jquery-2.0.3.min.js"></script>
+<script type="text/javascript" src="js/jgallery.min.js?v=1.6.2"></script>
 
-<!-- fotorama.css & fotorama.js. -->
-<link  href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet"> <!-- 3 KB -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script> <!-- 16 KB -->
-
-
-
-	<script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
-	<script type='text/javascript' src='unitegallery/js/unitegallery.min.js'></script> 
-		
-	<link rel='stylesheet' href='unitegallery/css/unite-gallery.css' type='text/css' /> 
-	<script type='text/javascript' src='unitegallery/themes/default/ug-theme-default.js'></script> 
-	<link rel='stylesheet' href='unitegallery/themes/default/ug-theme-default.css' type='text/css' />
-
+	
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -73,7 +63,7 @@
                 <a href="#locations" onclick=$("#menu-close").click();>Chapter Locations</a>
             </li>
             <li>
-                <a href="#donations" onclick=$("#menu-close").click();>Contact</a>
+                <a href="#contact" onclick=$("#menu-close").click();>Contact</a>
             </li>
         </ul>
     </nav>
@@ -82,7 +72,7 @@
     <header id="top" class="header">
     
         <div class="text-vertical-center">
-        <img src="http://marylandarcheology.org/Images/asm-seal.gif" width="200" height="200" alt="logo" align="center"/>
+        <img src="img/logosvg.svg" width="200" height="200" alt="logo" align="center"/>
             <h1 style="color:#FFFFFF">The Archeological Society of Maryland, Inc.</h1>
             <br>
             <a href="#about" class="btn btn-dark btn-lg">Find Out More</a>
@@ -235,21 +225,29 @@
                     <h2>Photo Gallery</h2>  <!-- pictures of survey projects? -->
                     <hr class="small">
                     <div class="row">
-                        <!-- 2. Add images to <div class="fotorama"></div>. -->
-						<div class="fotorama"
-							data-width="600"
-     						data-height="400">
-  							<img src="img/RiverFarm2016.png">
-  							<img src="img/RiverFarmPhoto2.jpg">
-  							<img src="img/RiverFarmPhoto3.jpg">
-  							<img src="img/RiverFarmPhoto4.jpg">
-  							<img src="img/RiverFarmPhoto5.jpg">
-  							<img src="img/RiverFarmPhoto6.jpg">
-  							<img src="img/RiverFarmPhoto7.jpg">
-  							<img src="img/RiverFarmPhoto8.jpg">
-  							<img src="img/RiverFarmPhoto9.jpg">
-  							<img src="img/RiverFarmPhoto10.jpg">
+                    
+                    <div id="gallery">
+    					<div class="album" data-jgallery-album-title="Album 1">
+        					<a href="img/RiverFarm2016.png"><img src="img/RiverFarm2016.png" alt="The 2016 Tyler Bastian Field Session was held at River Farm 18AN881 in Anne Arundel County." /></a>
+        					<a href="img/RiverFarmPhoto2.jpg"><img src="img/RiverFarmPhoto2.jpg" alt="Photo 2" /></a>
+        					<a href="img/RiverFarmPhoto3.jpg"><img src="img/RiverFarmPhoto3.jpg" alt="Photo 3" /></a>
+        					<a href="img/RiverFarmPhoto4.jpg"><img src="img/RiverFarmPhoto4.jpg" alt="Photo 4" /></a>
+							<a href="img/RiverFarmPhoto5.jpg"><img src="img/RiverFarmPhoto5.jpg" alt="Photo 5" /></a>
 						</div>
+    					<div class="album" data-jgallery-album-title="Album 2">
+        					<a href="img/RiverFarmPhoto6.jpg"><img src="img/RiverFarmPhoto6.jpg" alt="Photo 6" /></a>
+        					<a href="img/RiverFarmPhoto7.jpg"><img src="img/RiverFarmPhoto7.jpg" alt="Photo 7" /></a>
+        					<a href="img/RiverFarmPhoto8.jpg"><img src="img/RiverFarmPhoto8.jpg" alt="Photo 8" /></a>
+        					<a href="img/RiverFarmPhoto9.jpg"><img src="img/RiverFarmPhoto9.jpg" alt="Photo 9" /></a>
+        					<a href="img/RiverFarmPhoto10.jpg"><img src="img/RiverFarmPhoto10.jpg" alt="Photo 10" /></a>
+    					</div>
+					</div>
+<script type="text/javascript">
+$( function() {
+    $( '#gallery' ).jGallery();
+} );
+</script>
+                        
                     </div>
                     <!-- /.row (nested) -->
                     
@@ -277,20 +275,20 @@
     </section>
 
     <!-- Map -->
-    <section id="contact" class="map">
+    <section id="map" class="map">
         <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/d/embed?mid=19oYlSl6W2ZXfXMi7Bt3F-hw65lE"></iframe>
         <br />
     </section>
     
     <!-- Donations -->
-    <section id="donations">
+    <section id="contact">
     <aside class="call-to-action2 bg-primary">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2>Donations to the Archeological Society of Maryland, Inc. are greatly appreciated.</h2>
                     <body link=#DAA520>
-                    <h1>You can donate <a href="http://join.deathtothestockphoto.com/" style="color: #DAA520">here</a>.</h1> 
+                    <h1>You can donate <a href="" style="color: #DAA520">here</a>.</h1> 
                 </div>
             </div>
         </div>
