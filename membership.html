@@ -4,6 +4,14 @@
 
 <head>
 
+<!--Calendar-->
+<link href="http://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.min.css" rel="stylesheet" type="text/css" />
+<link href="demo/MonthPicker.min.css" rel="stylesheet" type="text/css" />
+<script src="http://code.jquery.com/jquery-1.12.1.min.js"></script>
+<script src="http://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
+<script src="jquery.maskedinput.min.js"></script>
+<script src="demo/MonthPicker.min.js"></script>
+
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -39,47 +47,62 @@
         <ul class="sidebar-nav">
             <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
             <li class="sidebar-brand">
-                <a href="#top" onclick=$("#menu-close").click();>ASM</a>
+                <a href="index.html" onclick=$("#menu-close").click();>ASM</a>
             </li>
             <li>
-                <a href="#top" onclick=$("#menu-close").click();>Home</a>
+                <a href="index.html" onclick=$("#menu-close").click();>Home</a>
             </li>
             <li>
-                <a href="#about" onclick=$("#menu-close").click();>Current</a>
+                <a href="#about" onclick=$("#menu-close").click();>Benefits</a>
             </li>
             <li>
-                <a href="#services" onclick=$("#menu-close").click();>About</a>
-            </li>
-            <li>
-                <a href="#portfolio" onclick=$("#menu-close").click();>Photo Gallery</a>
-            </li>
-            <li>
-                <a href="#contact" onclick=$("#menu-close").click();>Chapter Locations</a>
-            </li>
-            <li>
-                <a href="#contact" onclick=$("#menu-close").click();>Contact</a>
+                <a href="#form" onclick=$("#menu-close").click();>Apply</a>
             </li>
         </ul>
     </nav>
 
     <!-- Header -->
-    <header id="top" class="header">
-    
-        <div class="text-vertical-center">
-        <img src="http://marylandarcheology.org/Images/asm-seal.gif" width="200" height="200" alt="logo" align="center"/>
-            <h1 style="color:#FFFFFF">The Archeological Society of Maryland, Inc.</h1>
-            <br>
-            <a href="#about" class="btn btn-dark btn-lg">Find Out More</a>
+    <section id="services" class="services bg-primary">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-lg-10 col-lg-offset-1">
+                    <h2>Become a member of ASM today</h2>
+                    <h3>Membership in the Archeological Society of Maryland, Inc. opens a window to Maryland's past.</h3>
+                    <hr class="small">
+            
+                    <!-- /.row (nested) -->
+                </div>
+                <!-- /.col-lg-10 -->
+            </div>
+            <!-- /.row -->
         </div>
-    </header>
+        <!-- /.container -->
+    </section>
+    
 
     <!-- About -->
     <section id="about" class="about">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 style="color:#c94c4c">2017 Annual Spring Symposium</h2>
-                    <p class="lead">The Spring Symposium will take place on April 8th at the People's Resource Center in Crownsville. Take a look at the Program and plan to join us for a day of archeology.</p>
+                    <h2 style="color:#c94c4c">Among the immediate benefits of ASM membership, you will:</h2>
+                    	<ul>
+  							<li>Learn about upcoming events and issues from <a href="publications.html#about" style="color: #DAA520"><i>ASM Ink</i></a>, a monthly newsletter.</li>
+  							<li>Receive the biannual journal <i>Maryland Archeology</i>, detailing exciting discoveries.</li>
+  							<li>Attend Society events at reduced admission.</li>
+  							<li>Receive a 10% discount on publications, hand tools, T-shirts, and other items sold by the Society.</li>
+						</ul>
+					<h2 style="color:#c94c4c">You may also participate in numerous activities and events throughout the year, including:</h2>
+						<div id="ul2" style="float:right;">
+						<ul class="list2">
+  							<li>The Annual Field Session in Maryland Archeology, a yearly, professionally directed, excavation on a Maryland archeological site.</li>
+  							<li>The Annual Fall Meeting and the Annual Spring Symposium.</li>
+  							<li>The Annual Workshop in Archeology.</li>
+  							<li>Ongoing, professionally directed, volunteer activities including excavations, processing and cataloging artifacts, and other laboratory tasks.</li>
+  							<li>Local Chapter meetings and sponsored events.</li>
+  							<li>A wide variety of lectures, displays, and hands-on activities during the statewide Maryland Archeology Month celebration.</li>
+						</ul>
+						</div>
                 </div>
             </div>
             <!-- /.row -->
@@ -87,120 +110,30 @@
         <!-- /.container -->
     </section>
 
-    <!-- Services -->
-    <!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
-    <section id="services" class="services bg-primary">
+    <!-- Form -->
+    <section id="form" class="services bg-primary">
         <div class="container">
             <div class="row text-center">
                 <div class="col-lg-10 col-lg-offset-1">
-                    <h2>Archeological Society of Maryland (ASM)</h2>
+                    <h2>Membership Form</h2>
                     <hr class="small">
-                    <div class="row">
-                    	<div class="col-md-3 col-sm-6">
-                            <div class="service-item">
-                                <span class="fa-stack fa-4x">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-user fa-stack-1x text-primary" style="color:#DAA520"></i>
-                            </span>
-                                <h4>
-                                    <strong>Membership</strong>
-                                </h4>
-                                <p>Membership in the Archeological Society of Maryland, Inc. opens a window to Maryland's past.</p>
-                                <h1 style="margin-top:30px;margin-center:30px;"><a href="membership.html" class="btn btn-light">Learn More</a></h1>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-6">
-                            <div class="service-item">
-                                <span class="fa-stack fa-4x">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-cogs fa-stack-1x text-primary" style="color:#DAA520"></i>
-                            </span>
-                                <h4>
-                                    <strong>Activities</strong>
-                                </h4>
-                                <p>ASM sponsors and co-sponsors a variety of archeological activities throughout the year and across the state.</p>
-                                <a align centerhref="#" class="btn btn-light">Learn More</a>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-6">
-                            <div class="service-item">
-                                <span class="fa-stack fa-4x">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-trophy fa-stack-1x text-primary" style="color:#DAA520"></i>
-                            </span>
-                                <h4>
-                                    <strong>Awards</strong>
-                                </h4>
-                                <p>ASM has a number of award categories. Each award is presented annually, as appropriate.</p>
-                                <h1 style="margin-top:30px;margin-center:30px;"><a href="#" class="btn btn-light">Learn More</a></h1>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-6">
-                            <div class="service-item">
-                                <span class="fa-stack fa-4x">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-compass fa-stack-1x text-primary" style="color:#DAA520"></i>
-                            </span>
-                                <h4>
-                                    <strong>Chapters</strong>
-                                </h4>
-                                <p>ASM has Chapters throughout the state. They usually hold monthly meetings and often conduct local projects.</p>
-                                <a href="#" class="btn btn-light">Learn More</a>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-6">
-                            <div class="service-item">
-                                <span class="fa-stack fa-4x">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-external-link-square fa-stack-1x text-primary" style="color:#DAA520"></i>
-                            </span>
-                                <h4>
-                                    <strong>Certified Archeological Technician Program</strong>
-                                </h4>
-                                <p>This program (CAT program) gives members of ASM an opportunity to obtain recognition for formal and extended training in the techniques and goals of archeology.</p>
-                                <h1 style="margin-top:10px;margin-center:30px;"><a href="#" class="btn btn-light">Learn More</a></h1>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-6">
-                            <div class="service-item">
-                                <span class="fa-stack fa-4x">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-external-link-square fa-stack-1x text-primary" style="color:#DAA520"></i>
-                            </span>
-                                <h4>
-                                    <strong>Archeological Site Survey and Registration Program</strong>
-                                </h4>
-                                <p>This program, begun in 2007, is designed to identify, evaluate and register archeological resources in Maryland.</p>
-                                <h1 style="margin-top:30px;margin-center:30px;"><a href="#" class="btn btn-light">Learn More</a></h1>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-6">
-                            <div class="service-item">
-                                <span class="fa-stack fa-4x">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-external-link-square fa-stack-1x text-primary" style="color:#DAA520"></i>
-                            </span>
-                                <h4>
-                                    <strong>Contact Us</strong>
-                                </h4>
-                                <p style="margin-top:30px;">Need to contact someone in ASM? Here's a list of our current Board of Directors.</p>
-                                <h1 style="margin-top:50px;margin-center:30px;"><a href="#" class="btn btn-light">Learn More</a></h1>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-6">
-                            <div class="service-item">
-                                <span class="fa-stack fa-4x">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-question fa-stack-1x text-primary" style="color:#DAA520"></i>
-                            </span>
-                                <h4>
-                                    <strong>About ASM</strong>
-                                </h4>
-                                <p style="margin-top:30px;">ASM is a statewide organization of lay and professional archeologists devoted to the study and conservation of Maryland archeology.</p>
-                                <h1 style="margin-top:10px;margin-center:30px;"><a href="#" class="btn btn-light">Learn More</a></h1>
-                            </div>
-                        </div>
-                    </div>
+                    <p>Please fill out the form and pay below to become a member</p>
+                    
+					
+					<div style="float:left; display:inline-block; width:45%;text-align:right;">
+					<!--  action="https://docs.google.com/a/marylandarcheology.org/forms/d/e/1FAIpQLScmscxCD4SZr5Q-3_XYNMtgiiw5Dq04hYUevpkt2Rluwwtv1g/viewform?embedded=true"  -->
+						<form>
+    						<input type="submit" id="button1" value="Membership Form" />
+    					</form>
+					</div>
+
+					<div style="float:right; display:inline-block; width:45%;text-align:left;">
+						<form action="">
+    						<input type="submit" id="button1" value="Pay with PayPal" />
+    					</form>
+					</div>
+                    
+                   
                     <!-- /.row (nested) -->
                 </div>
                 <!-- /.col-lg-10 -->
@@ -209,68 +142,30 @@
         </div>
         <!-- /.container -->
     </section>
-
-
-    <!-- Portfolio -->
-    <section id="portfolio" class="portfolio">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <h2>Photo Gallery</h2>  <!-- pictures of survey projects? -->
-                    <hr class="small">
-                    <div class="row">
-                        
-                    </div>
-                    <!-- /.row (nested) -->
-                    <a href="#" class="btn btn-dark">View More Items</a>
-                </div>
-                <!-- /.col-lg-10 -->
-            </div>
-            <!-- /.row -->
-        </div>
-        <!-- /.container -->
-    </section>
-
-    <!-- Call to Action -->
-    <aside class="call-to-action bg-primary">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h3>The Archeological Society of Maryland, Inc. has Chapters throughout the state.</h3>
-                    <h3>Chapter locations are listed below.</h3> 
-                    <!-- Add google Map of all ASM locations -->
-                </div>
-            </div>
-        </div>
-    </aside>
 
    
     
 
     <!-- Footer -->
     <footer>
-        <div class="container">
+    	<div class="container">
             <div class="row">
                 <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <h4><strong>Archeological Society of Maryland, Inc.</strong>
-                    </h4>
+                    <h3><strong>Archeological Society of Maryland, Inc.</strong>
+                    </h3>
                     <p>3481 Melrose Place
                         <br>Beverly Hills, CA 90210</p>
                     <ul class="list-unstyled">
                         <li><i class="fa fa-phone fa-fw"></i> (123) 456-7890</li>
-                        <li><i class="fa fa-envelope-o fa-fw"></i> <a href="mailto:name@example.com">name@example.com</a>
+                        <li><i class="fa fa-envelope-o fa-fw"></i> <a href="mailto:name@example.com" style="color: #DAA520">name@example.com</a>
                         </li>
                     </ul>
                     <br>
+                    
+                    <!-- Facebook link -->
                     <ul class="list-inline">
                         <li>
-                            <a href="#"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
-                        </li>
-                        <li>
-                            <a href="#"><i class="fa fa-twitter fa-fw fa-3x"></i></a>
-                        </li>
-                        <li>
-                            <a href="#"><i class="fa fa-dribbble fa-fw fa-3x"></i></a>
+                            <a href="#"><i class="fa fa-facebook fa-fw fa-3x" style="color: #DAA520"></i></a>
                         </li>
                     </ul>
                     <hr class="small">
@@ -281,8 +176,6 @@
         <a id="to-top" href="#top" class="btn btn-dark btn-lg"><i class="fa fa-chevron-up fa-fw fa-1x"></i></a>
     </footer>
 
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>

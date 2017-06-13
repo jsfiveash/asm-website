@@ -27,6 +27,10 @@ body {
     padding: 0;
     font-size: 4.5em;
     font-weight: 700;
+    border-radius: 0;
+    background-color: rgba(0, 0, 0, 0.42)
+
+
 }
 
 /* Custom Button Styles */
@@ -34,7 +38,7 @@ body {
 .btn-dark {
     border-radius: 0;
     color: #fff;
-    background-color: rgba(0,0,0,0.4);
+    background-color: #DAA520;
 }
 
 .btn-dark:hover,
@@ -55,6 +59,13 @@ body {
 .btn-light:active {
     color: #333;
     background-color: rgba(255,255,255,0.8);
+}
+
+#button1 , #button2 {
+display:inline-block;
+background-color: #DAA520;
+margin: 10px;
+/**other codes**/
 }
 
 /* Custom Horizontal Rule */
@@ -154,7 +165,7 @@ hr.small {
     position: relative;
     width: 100%;
     height: 100%;
-    background: url(homepageImage.jpg);
+    background: url(image2.jpg);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -198,7 +209,11 @@ hr.small {
     margin: 0 auto;
 }
 .portfolio {
-    padding: 40px 0;
+    padding: 20px 0;
+}
+#calendar{
+	text-align: center;
+	margin: 0 auto;
 }
 
 
@@ -243,6 +258,7 @@ hr.small {
 
 footer {
     padding: 100px 0;
+    background-color: #D3D3D3;
 }
 
 #to-top {
@@ -251,4 +267,12 @@ footer {
   bottom: 5px;
   right: 5px;
 }
+
+ul {
+    list-style-position: inside;
+    display: inline-block;
+    text-align: left;
+    
+}
+
 
