@@ -100,10 +100,14 @@
   											$(function(){
     											theYear = new Date().getFullYear();
     											$("#year").html(theYear);
+    											minYear = theYear - 15;
   											});
+  											
+  											
+  								
 
                     		
-                    						$('#calendar').MonthPicker({ dateFormat: 'dd/mm/yy', StartYear: theYear, MaxMonth: 0, ShowIcon: false, 
+                    						$('#calendar').MonthPicker({ dateFormat: 'dd/mm/yy', StartYear: theYear, MinMonth: '01/2002', MaxMonth: 0, ShowIcon: false, 
                     						OnAfterChooseMonth: function(selectedDate) 
                     						
                     						{

@@ -185,6 +185,11 @@ hr.small {
     padding: 50px 0;
 }
 
+.contactus {
+	background-color: #c94c4c;
+	padding: 10px;
+}
+
 .service-item {
     margin-bottom: 30px;
 }
@@ -262,10 +267,10 @@ footer {
 }
 
 #to-top {
-  display: none;
-  position: fixed;
-  bottom: 5px;
-  right: 5px;
+  	display: none;
+  	position: fixed;
+  	bottom: 5px;
+  	right: 5px;
 }
 
 ul {
@@ -274,5 +279,100 @@ ul {
     text-align: left;
     
 }
+
+/* contact us page pictures */
+.imgContainer {
+	display: inline-block;
+	width: 250px;
+	margin: 10px;
+}
+
+.imgContainer p {
+	margin: 0px;
+}
+
+/* at-large trustees */
+.trustees {
+	margin: 30px;
+}
+
+.trustee {
+	display: inline-block;
+	width: 250px;
+	margin: 10px;
+}
+
+.trustee p {
+	margin: 0px;
+}
+
+/* field session page styling */
+.fieldsession {
+	background-color: white;
+    padding: 50px 0;
+}
+
+.fieldsession hr {
+width: 500px;
+height: 1px;
+background-color:#c94c4c;
+}
+
+.titlefieldsession {
+	background-color: #c94c4c;
+    padding: 40px 0;
+}
+
+/* site survey page styling */
+.programs {
+	background-color: #DAA520;
+    padding: 20px 0;
+}
+
+.program1 {
+	background-color: white;
+    padding: 20px 0;
+}
+
+.program1 hr {
+width: 500px;
+height: 1px;
+background-color:#c94c4c;
+}
+
+.program2 {
+	background-color: #c94c4c;
+    padding: 20px 0;
+}
+
+.program3 {
+	background-color: white;
+    padding: 20px 0;
+}
+
+.program3 hr {
+width: 500px;
+height: 1px;
+background-color:#c94c4c;
+}
+
+.image1{
+    text-align:center;
+}
+.image1 img{
+    display:block;
+}
+.image2{
+    text-align:center;
+}
+.image2 img{
+    display:block;
+}
+
+
+
+
+
+   
 
 
