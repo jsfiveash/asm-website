@@ -1,0 +1,99 @@
+/* online store page */
+
+html,
+.simpleCart_shelfItem {
+    display: inline;
+}
+
+.simpleCart_items table{
+	width: 400px;
+	border: 1px solid black;
+	border-collapse: collapse;
+	float: right;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+table {  
+    color: #333; /* Lighten up font color */
+    border-collapse: 
+    collapse; border-spacing: 0; 
+}
+th, td {
+	border: 1px solid transparent;
+	height: 30px;
+}
+th {  
+    font-weight: bold; /* Make sure they're bold */
+    background: #DFDFDF;  /* Darken header a bit */
+}
+
+td {  
+    background: #FAFAFA; /* Lighter grey background */
+    text-align: center; /* Center our text */
+}
+
+/* Cells in even rows (2,4,6...) are one color */        
+tr:nth-child(even) td { background: #F1F1F1; }   
+
+/* Cells in odd rows (1,3,5...) are another (excludes header cells)  */        
+tr:nth-child(odd) td { background: #FEFEFE; }  
+
+
+.simpleCart_items td {
+    padding-top: .5em;
+    padding-bottom: .5em;
+    padding-right: .5em;
+    padding-left: .5em;
+}
+
+.simpleCart_decrement{
+	color:red;
+}
+.simpleCart_remove{
+	color: #DAA520;
+}
+
+
+
+p {
+padding: 0 0 1em;
+}
+.msg_list {
+margin: 0px;
+padding: 0px;
+width: 383px;
+}
+.msg_head {
+padding: 5px 10px;
+cursor: pointer;
+position: relative;
+background-color:#FFCCCC;
+margin:1px;
+}
+.msg_body {
+padding: 5px 10px 15px;
+background-color:#F4F4F8;
+}
+
+.journals {
+padding: 5px 10px;
+width: 100px;
+cursor: pointer;
+position: relative;
+background-color:#FFCCCC;
+margin:1px;
+}
+
+.journals_body p {
+   line-height: 2px;
+}
+
+
+
+
+
+
+
+
