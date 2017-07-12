@@ -270,9 +270,9 @@ footer {
     height: 61px;
 }
 #footer {
-    bottom: 0px;
+    bottom: 0;
     position: absolute;
-    height: 40px;
+    
     left: 0px;
     right: 0px;
     margin-bottom: 0px;
