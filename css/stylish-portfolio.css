@@ -264,13 +264,28 @@ hr.small {
 footer {
     padding: 8px 0;
     background-color: #D3D3D3;
+    height: 61px;
 }
+#footer {
+    bottom: 0px;
+    position: absolute;
+    height: 40px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+#wrapper {
+    height: 50px;
+    position: relative;
+}
+
 
 
 #to-top {
   	display: none;
   	position: fixed;
-  	bottom: 5px;
+  	bottom: 10px;
   	right: 5px;
 }
 
