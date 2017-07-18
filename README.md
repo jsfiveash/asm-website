@@ -20,6 +20,7 @@
   * In GitHub go to (<> Code) tab
   * Go to the CATworkshops.html file
   * On the right side click the pencil icon to edit the file
+  * For example at around line 128 after the March 25, 2017 workshop 
   * Add 
   ```
   <tr>
@@ -29,6 +30,7 @@
       <td>Text</td>
   </tr>
   ```
+  * Should look like this below and just edit text
   <img width="868" alt="screen shot 2017-07-18 at 10 35 54 am" src="https://user-images.githubusercontent.com/25751413/28323866-faac0bce-6ba7-11e7-8a06-b6e254bc9fe5.png"> 
      
 ## Symposium information
