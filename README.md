@@ -25,6 +25,11 @@
   * Click the “upload files”, the second button to the left of the green “clone or download” button
   * Add the file (add an additional description for more details or to help you remember the changes made)
   * Click commit changes
+  * Go to GitHub (<> Code) tab
+  * Go to the AnnualMeetings.html file 
+  * On the right side click the pencil icon to edit the file
+  * At around line 88, copy and paste one of the lines of code
+  * Edit the href to the correct filename and change the text, then save the file
 
 ## New Workshop
   * In GitHub go to (<> Code) tab
@@ -44,6 +49,22 @@
   <img width="868" alt="screen shot 2017-07-18 at 10 35 54 am" src="https://user-images.githubusercontent.com/25751413/28323866-faac0bce-6ba7-11e7-8a06-b6e254bc9fe5.png"> 
      
 ## Symposium information
+  * In GitHub go to (<> Code) tab
+  * Go to the springsymposiumyyyy.html file 
+  * On the right side click the pencil icon to edit the file
+  * Copy and paste all code into text editor of your choice
+  * Make the changes to years, location, date, notes, etc.
+  * After all changes are made save the file as whatever the year is - example: springsymposium2022.html
+  * Go to GitHub (<> Code) tab
+  * Click the “upload files”, the second button to the left of the green “clone or download” button
+  * Add the file (add an additional description for more details or to help you remember the changes made)
+  * Click commit changes
+  * Go to GitHub (<> Code) tab
+  * Go to the springsymposium.html file 
+  * On the right side click the pencil icon to edit the file
+  * At around line 94, copy and paste one of the lines of code
+  * Edit the href to the correct filename and change the text, then save the file
+  
 
 ## Adding a William B. Marye Award/Teach of the Year Award writeup
 
