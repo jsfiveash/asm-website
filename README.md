@@ -21,13 +21,15 @@
   * Go to the CATworkshops.html file
   * On the right side click the pencil icon to edit the file
   * Add 
-  ```<tr>
-         <td>Text</td>
-         <td>Text</td>
-         <td>Text</td>
-         <td>Text</td>
-     </tr>```
-     
+  ```
+  <tr>
+      <td>Text</td>
+      <td>Text</td>
+      <td>Text</td>
+      <td>Text</td>
+  </tr>
+  ```
+       
      
 ## Symposium information
 
