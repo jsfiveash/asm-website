@@ -29,7 +29,7 @@
       <td>Text</td>
   </tr>
   ```
-       
+  <img width="868" alt="screen shot 2017-07-18 at 10 35 54 am" src="https://user-images.githubusercontent.com/25751413/28323866-faac0bce-6ba7-11e7-8a06-b6e254bc9fe5.png"> 
      
 ## Symposium information
 
