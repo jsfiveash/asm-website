@@ -17,7 +17,16 @@
 ## Posting Annual Meeting
 
 ## Workshop
-
+  * In GitHub go to (<> Code) tab
+  * Go to the CATworkshops.html file
+  * On the right side click the pencil icon to edit the file
+  * Add 
+  <tr>
+      <td>Text</td>
+      <td>Text</td>
+      <td>Text</td>
+      <td>Text</td>
+  </tr>
 ## Symposium information
 
 ## Adding a William B. Marye Award/Teach of the Year Award writeup
