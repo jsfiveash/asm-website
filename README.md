@@ -12,7 +12,7 @@
   * On the right side click the pencil icon to edit the file
   * Line 114 is where the About section starts which is for announcements
   * For Maryland Archeology of the month where it says <embed src="PDF/*FILENAME*.pdf" change whatever the current filename       is to the new filename for the archeology of the month you want to show
-  * Below that the h2 and p tag is where you can show a text announcemen
+  * Below that the h2 and p tag is where you can show a text announcement
 
 ## Posting Annual Meeting
 
