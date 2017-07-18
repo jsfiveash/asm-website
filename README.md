@@ -15,6 +15,16 @@
   * Below that the h2 and p tag is where you can show a text announcement
 
 ## Posting Annual Meeting
+  * In GitHub go to (<> Code) tab
+  * Go to the yyyymeeting.html file 
+  * On the right side click the pencil icon to edit the file
+  * Copy and paste all code into text editor of your choice
+  * Make the changes to years, location, date, notes, etc.
+  * After all changes are made save the file as whatever the year is - example: 2022meeting.html
+  * Go to GitHub (<> Code) tab
+  * Click the “upload files”, the second button to the left of the green “clone or download” button
+  * Add the file and click commit changes. (add an additional description for more details or to help you remember the changes     made)
+
 
 ## New Workshop
   * In GitHub go to (<> Code) tab
