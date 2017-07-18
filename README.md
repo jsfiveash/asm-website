@@ -84,6 +84,24 @@
   
 
 ## Adding a William B. Marye Award/Teach of the Year Award writeup
+  * In GitHub go to (<> Code) tab
+  * Go to the springsymposiumyyyy.html file 
+  * On the right side click the pencil icon to edit the file
+  * Copy and paste all code into text editor of your choice
+  * Make the changes to years, location, date, notes, etc.
+  * After all changes are made save the file as whatever the year is - example: springsymposium2022.html
+  * Go to GitHub (<> Code) tab
+  * Click the “upload files”, the second button to the left of the green “clone or download” button
+  * Add the file (add an additional description for more details or to help you remember the changes made)
+  * Click commit changes
+ 
+  * Go to GitHub (<> Code) tab
+  * Go to the marye.html file 
+  * On the right side click the pencil icon to edit the file
+  * At around line 107, copy and paste one of the lines of code
+  * Edit the year, href to the correct filename and change the text
+    (add an additional description for more details or to help you remember the changes made)
+  * Click commit changes
 
 ## Adding Field Session information (Registration and Picture Gallery)
 
