@@ -16,7 +16,7 @@
 
 ## Posting Annual Meeting
 
-## Workshop
+## New Workshop
   * In GitHub go to (<> Code) tab
   * Go to the CATworkshops.html file
   * On the right side click the pencil icon to edit the file
