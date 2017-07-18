@@ -23,8 +23,8 @@
   * After all changes are made save the file as whatever the year is - example: 2022meeting.html
   * Go to GitHub (<> Code) tab
   * Click the “upload files”, the second button to the left of the green “clone or download” button
-  * Add the file and click commit changes. (add an additional description for more details or to help you remember the changes     made)
-
+  * Add the file (add an additional description for more details or to help you remember the changes made)
+  * Click commit changes
 
 ## New Workshop
   * In GitHub go to (<> Code) tab
