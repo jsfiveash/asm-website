@@ -103,6 +103,23 @@
   * Click commit changes
 
 ## Adding Field Session information (Registration and Picture Gallery)
+  * In GitHub go to (<> Code) tab
+  * Go to the img folder, then the gallery folder, then whichever year folder (Ex: 2022_FS)
+  * On the right click "upload files" and add in the images
+    (add an additional description for more details or to help you remember the changes made)
+  * Click commit changes
+  * Go to GitHub (<> Code) tab
+  * Go to the yyyyfieldsession.html file 
+  * On the right side click the pencil icon to edit the file
+  * Copy and paste all code into text editor of your choice
+  * Make the changes to title year and album title
+  * In href and src for all the images change the year (/2016_FS/), each image address (2016_FS_Web_03.jpg), and the alt tags     if any
+  * After all changes are made save the file as whatever the year is - example: 2022fieldsession.html
+  * Go to GitHub (<> Code) tab
+  * Click the “upload files”, the second button to the left of the green “clone or download” button
+  * Add the file (add an additional description for more details or to help you remember the changes made)
+  * Click commit changes
+
 
 ## Linking Maryland Archeology Month pages
 
