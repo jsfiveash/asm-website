@@ -137,3 +137,8 @@
   * Add the file, the new archeology of the month pdf 
     (add an additional description for more details or to help you remember the changes made)
   * Click commit changes
+  
+  ## Google Event
+  * Google Calendar JohnFiveash@marylandarcheology
+  * Create event
+  * Make sure it is on ASM Calendar
