@@ -175,6 +175,12 @@ hr.small {
     -o-background-size: cover;
 }
 
+/* MAM */
+.announcement {
+	background-color: #c94c4c;
+	padding: 10px;
+}
+
 /* About */
 
 .about {
