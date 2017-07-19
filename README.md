@@ -122,6 +122,12 @@
   * After all changes are made and file is named go to bottom of page
     (add an additional description for more details or to help you remember the changes made)
   * Click commit changes
+  * Go back to GitHub (<> Code) tab
+  * Go to the fieldsession.html file 
+  * Around line 144, copy and paste one of the lines of code
+  * Edit the href to the correct filename and change the text
+    (add an additional description for more details or to help you remember the changes made)
+  * Click commit changes
 
 
 ## Linking Maryland Archeology Month pages
