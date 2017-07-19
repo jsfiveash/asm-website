@@ -17,16 +17,10 @@
   * The h2 and p tag is where you can edit and show a text announcement
     (add an additional description for more details or to help you remember the changes made)
   * Click commit changes
-  * Go to GitHub (<> Code) tab
-  * Click on the PDF folder
-  * Click the “upload files”, the second button to the left of the green “clone or download” button
-  * Add the file new archeology of the month pdf (add an additional description for more details or to help you remember the       changes made)
-  * Click commit changes
-  
 
 ## Posting Annual Meeting
   * In GitHub go to (<> Code) tab
-  * Go to the yyyymeeting.html file 
+  * Click on the yyyymeeting.html file 
   * On the right side click the pencil icon to edit the file
   * Copy all the code from the yyyymeeting.html file
   * Go back to GitHub (<> Code) tab
@@ -47,7 +41,7 @@
 
 ## New Workshop
   * In GitHub go to (<> Code) tab
-  * Go to the CATworkshops.html file
+  * Click on the CATworkshops.html file
   * On the right side click the pencil icon to edit the file
   * For example at around line 128, after the March 25, 2017 workshop 
   * Add 
@@ -67,10 +61,11 @@
      
 ## Symposium information
   * In GitHub go to (<> Code) tab
-  * Go to the springsymposiumyyyy.html file 
+  * Click on the symp folder
+  * In the symp folder, click on the springsymposiumyyyy.html file 
   * On the right side click the pencil icon to edit the file
   * Copy all the code from the springsymposiumyyyy.html file
-  * Go back to GitHub (<> Code) tab
+  * Go back to inside the symp folder
   * On the right side click "Create new file"
   * Paste all the code
   * Make the changes to years, location, date, notes, etc.
@@ -89,7 +84,7 @@
 
 ## Adding a William B. Marye Award/Teach of the Year Award writeup
   * In GitHub go to (<> Code) tab
-  * Go to the ExampleAwards.html file 
+  * Click on the ExampleAwards.html file 
   * On the right side click the pencil icon to edit the file
   * Copy all the code from the ExampleAwards.html file
   * Go back to GitHub (<> Code) tab
@@ -110,7 +105,7 @@
 
 ## Adding Field Session information (Registration and Picture Gallery)
   * In GitHub go to (<> Code) tab
-  * Go to the img folder, then the gallery folder, then whichever year folder (Ex: 2022_FS)
+  * Click on the img folder, then the gallery folder, then whichever year folder (Ex: 2022_FS)
   * On the right click "upload files" and add in the images
     (add an additional description for more details or to help you remember the changes made)
   * Click commit changes
@@ -142,8 +137,3 @@
   * Add the file, the new archeology of the month pdf 
     (add an additional description for more details or to help you remember the changes made)
   * Click commit changes
-
-
-## Bugs and Issues
-
-Have a bug or an issue with site? Open an issue????????
