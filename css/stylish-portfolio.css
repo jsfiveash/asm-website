@@ -275,19 +275,6 @@ footer {
     background-color: #D3D3D3;
     height: 61px;
 }
-#footer {
-    bottom: 0;
-    position: absolute;
-    height: 40px;
-    left: 0px;
-    right: 0px;
-    margin-bottom: 0px;
-    text-align: center;
-}
-#wrapper {
-    height: 50px;
-    position: relative;
-}
 
 
 
