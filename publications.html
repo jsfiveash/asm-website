@@ -64,17 +64,14 @@
         <div class="container">
             <div class="row text-center">
                 <div class="col-lg-10 col-lg-offset-1">
-                    <h1>ASM Publications</h1>
+
+		    <h1>ASM Publications</h1>
                     <h3>For more than 30 years, the Archeological Society of Maryland, Inc. has aggressively supported a strong publications program.</h3>
                     <hr class="small">
             
-                    <!-- /.row (nested) -->
-                </div>
-                <!-- /.col-lg-10 -->
-            </div>
-            <!-- /.row -->
-        </div>
-        <!-- /.container -->
+                </div><!-- /.col-lg-10 -->
+            </div><!-- /.row -->
+        </div><!-- /.container -->
     </section>
     
     
@@ -87,68 +84,57 @@
                     
                     <p class="lead"><i>ASM Ink</i>, sent electronically each month is an 8 to 12-page newsletter that keeps every member of the Society abreast of the latest archeological news in Maryland...field and lab projects needing volunteers...upcoming meetings, workshops, and talks...Chapter news...legislation and other action affecting archeology...and much, much more. Since March 2002 the newsletter has been available to ASM members on-line. The ASM Board of Directors recently decided to make it available to the general public through this website. Use the selection tool, below to view current and past issues of ASM Ink. Items for the newsletter should be directed to the Editor, <a href="mailto:myronbeck@verizon.net"> Myron Beckenstein</a>.</p>
                     	<div id="calendar" class="portfolio">
-        					<div class="container">
-            					<div class="row">
-                					<div class="col-lg-10 col-lg-offset-1 text-center">
-                    					<div class="row" >
-                    					<script>
+        		    <div class="container">
+            			<div class="row">
+                		    <div class="col-lg-10 col-lg-offset-1 text-center">
+                    			<div class="row">
+                    			    <script>
                     					
-                    						var theYear;
+                    				var theYear;
                     						
-  											$(function(){
-    											theYear = new Date().getFullYear();
-    											$("#year").html(theYear);
-    											minYear = theYear - 15;
-  											});
+  						$(function(){
+    						theYear = new Date().getFullYear();
+    						$("#year").html(theYear);
+    						minYear = theYear - 15;
+  						});
   											
-  											
-  								
-
-                    		
-                    						$('#calendar').MonthPicker({ dateFormat: 'dd/mm/yy', StartYear: theYear, MinMonth: '01/2002', MaxMonth: 0, ShowIcon: false, 
-                    						OnAfterChooseMonth: function(selectedDate) 
+       						$('#calendar').MonthPicker({ dateFormat: 'dd/mm/yy', StartYear: theYear, MinMonth: '01/2002', MaxMonth: 0, ShowIcon: false, 
+                    				OnAfterChooseMonth: function(selectedDate) 
                     						
-                    						{
-                    						var month = selectedDate.getMonth() + 1;
-                    						var month = "0" + month;
-                    						month = month.slice(-2);
-                    						var year = selectedDate.getFullYear();
-                    						var date = month + "-" + year + ".pdf";
+                    				{
+                    				var month = selectedDate.getMonth() + 1;
+                    				var month = "0" + month;
+                    				month = month.slice(-2);
+                    				var year = selectedDate.getFullYear();
+                    				var date = month + "-" + year + ".pdf";
                     						
                     						
-                    						var link = "Newsletters/" + year + "/"  + date;
+                    				var link = "Newsletters/" + year + "/"  + date;
                     						
-                    						window.open(link);
-                    						} 
-                    						});
+                    				window.open(link);
+                    				} 
+                    				});
                     						
                     						
                     						
-//	$('#calendar').MonthPicker({ dateFormat: 'dd/mm/yy', 
-                    					//	onAfterChooseMonth: function(dateText) {  alert(  dateText  ) }} );
+						//	$('#calendar').MonthPicker({ dateFormat: 'dd/mm/yy', 
+                    				//	onAfterChooseMonth: function(dateText) {  alert(  dateText  ) }} );
                     						                    						
                     						
                     						
                     						
-											$('input[type=month]').MonthPicker().css('backgroundColor', 'lightyellow');
-										</script>
-                    
-                        
-                    					</div>
-                    <!-- /.row (nested) -->
-                    
-                					</div>
-                <!-- /.col-lg-10 -->
-            					</div>
-            <!-- /.row -->
-        					</div>
-        <!-- /.container -->
-    					</div>
-                </div>
-            </div>
-            <!-- /.row -->
-        </div>
-        <!-- /.container -->
+						$('input[type=month]').MonthPicker().css('backgroundColor', 'lightyellow');
+						
+					    </script>
+
+					</div><!-- /.row (nested) -->
+                    		    </div><!-- /.col-lg-10 -->
+            			</div><!-- /.row -->
+        		    </div><!-- /.container -->
+    			</div><!-- /#calendar -->
+                    </div><!-- /.col-lg-12 -->
+                </div><!-- /.row -->
+            </div><!-- /.container -->
     </section>
     
     
@@ -166,12 +152,6 @@
         </div>
     </aside>
     </section>
-
-
-   
-    
-
-    
 
 
     <!-- Bootstrap Core JavaScript -->
