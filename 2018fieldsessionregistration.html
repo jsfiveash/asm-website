@@ -124,7 +124,59 @@
                 </div> <!-- /.col -->
             </div> <!-- /.row -->
         </div> <!-- /.container -->
-    </section> <!-- /.form ==>
+    </section> <!-- /.form -->
+	
+    <!-- Pay Registration -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+			
+                	<h2 style="color:#c94c4c">Field Session Fees</h2>
+                    	
+		   	<p style="color:#c94c4c">After completing the Field Session Registration Form, above, please use the buttons below to 
+				                 pay your fees.<br />All transactions take place on our secure PayPal 
+						 site and you can pay through your PayPal account or with a credit card.</p>
+			<br />
+
+			<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+				<input type="hidden" name="cmd" value="_s-xclick">
+				<input type="hidden" name="hosted_button_id" value="SXVBVMW6ST28U">
+				<table>
+					<tr>
+						<td>
+							<input type="hidden" name="on0" value="ASM Member - Adult">ASM Member - Adult
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<select name="os0">
+								<option value="One Day">One Day $15.00 USD</option>
+								<option value="Two Days">Two Days $30.00 USD</option>
+								<option value="Three or More Days">Three or More Days $45.00 USD</option>
+							</select> 
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<input type="hidden" name="on1" value="Name:">Name:
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<input type="text" name="os1" maxlength="200">
+						</td>
+					</tr>
+				</table>
+				<input type="hidden" name="currency_code" value="USD">
+				<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+				<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+			</form>
+		</div> 
+            </div>
+            <!-- /.row -->
+	</div><!-- /.container -->
+    </section>
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
