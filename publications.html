@@ -1,3 +1,5 @@
+<!-- publications.html -->
+
 <!-- Stylish portfolio startbootstrap.com -->
 
 <html lang="en">
@@ -19,6 +21,7 @@
     <meta name="author" content="">
 
     <title>Archeological Society of Maryland, Inc.</title>
+	
     <link rel="shortcut icon" href="http://marylandarcheology.org/favicon.ico" />
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -82,7 +85,27 @@
 			<li>
 				<hr/>
     		</li>
+	    	
+			<li class="sidebar-brand">
+                <a href="https://www.marylandarcheology.org/publications.html" onclick=$("#menu-close").click();>Publications</a>
+            </li>
+			
+			<li>
+				<hr/>
+ 	    	</li>
+           
+	    	<li>
+                <a href="#newsletter" onclick=$("#menu-close").click();>Newsletter</a>
+            </li>
+				
+            <li>
+                <a href="#journal" onclick=$("#menu-close").click();>Journal</a>
+            </li>
 		
+		    <li>
+				<hr/>
+	    	</li>		
+			
 			<li>
 				<hr/>	    
 			</li>
@@ -91,11 +114,13 @@
 				<a href="https://www.facebook.com/groups/138995446429/" style="margin-left:-5px"><i class="fa fa-facebook fa-fw fa-2x" style="color: #DAA520"></i></a>
 			</li>
 	
-		</ul>
+		</ul>	
 	    
-</nav>
+	</nav>
 
-    <!-- Header -->
+<!-- End Navigation -->
+	
+<!-- Header -->
     <section id="services" class="services bg-primary">
         <div class="container">
             <div class="row text-center">
@@ -109,96 +134,81 @@
             </div><!-- /.row -->
         </div><!-- /.container -->
     </section>
+<!-- End Header -->    
     
-    
-
-    <!-- About -->
-    <section id="about" class="about">
+<!-- Newsletter -->
+    <section id="newsletter" class="about">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-		    <h2>ASM Ink - The Society Newsletter</h4>
+		    	<h2>ASM Ink - The Society Newsletter</h4>
                     <p class="lead" align="left"><i>ASM Ink</i>, sent electronically each month is an 8 to 12-page newsletter that keeps every member of the Society abreast 
-			    of the latest archeological news in Maryland...field and lab projects needing volunteers...upcoming meetings, workshops, and talks...Chapter 
-			    news...legislation and other action affecting archeology...and much, much more. Since March 2002 the newsletter has been available to ASM members 
-			    on-line. The ASM Board of Directors recently decided to make it available to the general public through this website. Use the selection tool, below 
-			    to view current and past issues of ASM Ink.</p>
-			<p class="lead" align="left">Items for the newsletter should be directed to the Editor, <a href="mailto:kim.malinowski@marylandarcheology.org">Kim Malinowski</a>.</p>
+			    		of the latest archeological news in Maryland...field and lab projects needing volunteers...upcoming meetings, workshops, and talks...Chapter 
+			    		news...legislation and other action affecting archeology...and much, much more. Since March 2002 the newsletter has been available to ASM members 
+			    		on-line. The ASM Board of Directors recently decided to make it available to the general public through this website. Use the selection tool, below 
+			    		to view current and past issues of ASM Ink.</p>
+					<p class="lead" align="left">Items for the newsletter should be directed to the Editor, <a href="mailto:kim.malinowski@marylandarcheology.org">Kim Malinowski</a>.</p>
                     	<div id="calendar" class="portfolio">
-        		    <div class="container">
-            			<div class="row">
-                		    <div class="col-lg-10 col-lg-offset-1 text-center">
-                    			<div class="row">
-                    			    <script>
+        		    		<div class="container">
+            					<div class="row">
+                		    		<div class="col-lg-10 col-lg-offset-1 text-center">
+                    					<div class="row">
+                    			    	<script>
                     					
-                    				var theYear;
+                    					var theYear;
                     						
-  						$(function(){
-    						theYear = new Date().getFullYear();
-    						$("#year").html(theYear);
-    						minYear = theYear - 15;
-  						});
+  										$(function(){
+    										theYear = new Date().getFullYear();
+    									$("#year").html(theYear);
+    										minYear = theYear - 15;
+  										});
   											
-       						$('#calendar').MonthPicker({ dateFormat: 'dd/mm/yy', StartYear: theYear, MinMonth: '01/2002', MaxMonth: 0, ShowIcon: false, 
-                    				OnAfterChooseMonth: function(selectedDate) 
+       									$('#calendar').MonthPicker({ dateFormat: 'dd/mm/yy', StartYear: theYear, MinMonth: '01/2002', MaxMonth: 0, ShowIcon: false, 
+                    						OnAfterChooseMonth: function(selectedDate) 
                     						
-                    				{
-                    				var month = selectedDate.getMonth() + 1;
-                    				var month = "0" + month;
-                    				month = month.slice(-2);
-                    				var year = selectedDate.getFullYear();
-                    				var date = month + "-" + year + ".pdf";
+                    					{
+		                    				var month = selectedDate.getMonth() + 1;
+		                    				var month = "0" + month;
+		                    				month = month.slice(-2);
+		                    				var year = selectedDate.getFullYear();
+		                    				var date = month + "-" + year + ".pdf";
                     						
                     						
-                    				var link = "Newsletters/" + year + "/"  + date;
+                    						var link = "Newsletters/" + year + "/"  + date;
                     						
-                    				window.open(link);
-                    				} 
-                    				});
+                    						window.open(link);
+                    					} 
+                    					});
                     						       						
-						//	$('#calendar').MonthPicker({ dateFormat: 'dd/mm/yy', 
-                    				//	onAfterChooseMonth: function(dateText) {  alert(  dateText  ) }} );
+										//	$('#calendar').MonthPicker({ dateFormat: 'dd/mm/yy', 
+                    					//	onAfterChooseMonth: function(dateText) {  alert(  dateText  ) }} );
                     						                    				                 						                    						
-						$('input[type=month]').MonthPicker().css('backgroundColor', 'lightyellow');
+										$('input[type=month]').MonthPicker().css('backgroundColor', 'lightyellow');
 						
-					    </script>
+					    				</script>
 
-					</div><!-- /.row (nested) -->
-                    		    </div><!-- /.col-lg-10 -->
-            			</div><!-- /.row -->
-        		    </div><!-- /.container -->
-    			</div><!-- /#calendar -->
+										</div><!-- /.row (nested) -->
+                    		    	</div><!-- /.col-lg-10 -->
+            					</div><!-- /.row -->
+        		    		</div><!-- /.container -->
+    					</div><!-- /#calendar -->
                     </div><!-- /.col-lg-12 -->
                 </div><!-- /.row -->
             </div><!-- /.container -->
-    </section>
-    
-    
-    <!-- Journal -->
-    <section id="other">
-    <aside class="call-to-action2 bg-primary">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <!-- <h2><i>Maryland Archeology</i>, ASM's flagship journal is published biannually journal and special publications can be found on the ASM store.</h2>
-                    <body link=#DAA520>
-                    <h1>You can access the ASM Store <a href="store.html" style="color: #DAA520">here</a>.</h1> -->
-                </div>
-            </div>
-        </div>
-    </aside>
-    </section>
+    </section><!-- ./newsletter -->
+<!-- End Newsletter -->    
 
-	<section id="about" class="about">
+<!-- Journal -->
+	<section id="journal" class="about">
     	<div class="container">
         	<div class="row">
-            	<div class="col-lg-12 text-center">
+           		<div class="col-lg-12 text-center">
 			
 					<h2>Maryland Archeology</h2>
 			
 					<p class="lead" align="left"><i>Maryland Archeology</i>, ASM's flagship journal, is the only publication dedicated to archeology in the state of Maryland. The journal is 
 						published biannually and is available to all readers. An excellent 50-year index to the journal has been compiled by Dennis Curry and is available on our 
-						<a href="http://www.marylandarcheology.org/journal/journal.html"><strong>Journal</strong></a> webpage.</p>
+					<a href="http://www.marylandarcheology.org/journal/journal.html"><strong>Journal</strong></a> webpage.</p>
 					<p class="lead" align="left">All correspondence and manuscripts for the journal can be sent to the Editor at <a href="mailto: Matthew.McKnight@maryland.gov">Matthew.McKnight@maryland.gov</a>.</p> 
 			
 					<hr class="small">
@@ -210,10 +220,29 @@
 					<p align="center"><a href="http://www.marylandarcheology.org/PDF/Accessing_Maryland_Archeology.pdf" target="_blank"><strong>Instructions for use of the Flippingbooks document presentation platform.</strong></a></p>
 					
 				</div><!-- /.col-lg-12 -->
-            </div><!-- /.row -->
-        </div><!-- /.container -->
-    </section>
+           	</div><!-- /.row -->
+       	</div><!-- /.container -->
+    </section><!-- ./journal -->
+<!-- End Journal -->
 
+ <!-- Footer -->
+    <section class="footer">
+    <footer>
+		
+	<div class="hidden-xs hidden-sm">
+		<p class="text-muted" style="float:left; margin-left:30px; margin-top:10px">&copy; 1999-2026, Archeological Society of Maryland, Inc.</p>
+		<div id="wrapper">
+    		<div id="footer" style="float:center">
+    			<i class="fa fa-envelope-o fa-fw"></i> 
+				<a href="mailto:information@marylandarcheology.org" style="color: #c94c4c; cursor: pointer;">information@marylandarcheology.org</a>
+    		</div><!-- ./footer -->
+ 		</div><!-- ./wrapper -->
+ 	</div><!-- ./hidden-xs -->		
+	<a id="to-top" href="#top" class="btn btn-dark btn-lg"><i class="fa fa-chevron-up fa-fw fa-1x"></i></a>   
+    </footer>
+    </section><!-- ./footer -->
+<!-- End Footer -->	
+	
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
 
