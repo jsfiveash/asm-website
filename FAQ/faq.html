@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frequently Asked Questions</title>
+    <style>
+        :root {
+            --bg-color: #f8fafc;
+            --text-color: #334155;
+            --accent-color: #2563eb;
+            --border-color: #e2e8f0;
+            --radius: 8px;
+        }
+
+        body {
+            font-family: system-ui, -apple-system, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+            margin: 0;
+            padding: 40px 20px;
+        }
+
+        .faq-container {
+            max-width: 650px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            text-align: center;
+            color: #1e293b;
+            margin-bottom: 30px;
+        }
+
+        details {
+            background-color: #ffffff;
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius);
+            margin-bottom: 15px;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+            transition: all 0.2s ease;
+        }
+
+        details[open] {
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+        }
+
+        summary {
+            padding: 20px;
+            font-weight: 600;
+            font-size: 1.1rem;
+            cursor: pointer;
+            list-style: none;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: #1e293b;
+        }
+
+        /* Adds a custom toggle icon */
+        summary::after {
+            content: '+';
+            font-size: 1.5rem;
+            color: var(--accent-color);
+            transition: transform 0.3s ease;
+        }
+
+        details[open] summary::after {
+            content: '-';
+        }
+
+        .faq-content {
+            padding: 0 20px 20px 20px;
+            color: var(--text-color);
+        }
+
+        /* Hides the default marker on Safari */
+        summary::-webkit-details-marker {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="faq-container">
+        <h1>Frequently Asked Questions</h1>
+        
+        <details>
+            <summary>What is your return policy?</summary>
+            <div class="faq-content">
+                We offer a 30-day return policy for all unused items in their original packaging. Simply contact our support team to initiate the process.
+            </div>
+        </details>
+
+        <details>
+            <summary>How do I track my order?</summary>
+            <div class="faq-content">
+                Once your order ships, you will receive an email with a tracking number and a link to monitor your shipment's progress in real-time.
+            </div>
+        </details>
+
+        <details>
+            <summary>Do you ship internationally?</summary>
+            <div class="faq-content">
+                Yes, we ship to over 100 countries worldwide. Shipping costs and delivery times vary depending on the destination.
+            </div>
+        </details>
+
+        <details>
+            <summary>How can I contact customer support?</summary>
+            <div class="faq-content">
+                You can reach our team via email at support@example.com or by using the live chat feature on our website between 9 AM and 5 PM EST.
+            </div>
+        </details>
+    </div>
+
+</body>
+</html>
