@@ -1,3 +1,8 @@
+/* Makes the Month Picker menu 20% bigger. */
+.month-picker {
+  font-size: 1.2em;
+}
+
 .month-picker{
 display:inline-block;
 position:absolute;
